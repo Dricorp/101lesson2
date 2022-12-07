@@ -1,0 +1,37 @@
+.header {
+	background-color: yellowgreen;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+.page {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page__main {
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.list {
+	font-size: 24px;
+}
+.list li:not(:last-child) {
+	margin-bottom: 15px;
+}
+.list li::before {
+	content: "";
+	background: red;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	padding-left: 25px;
+}
+
+.footer {
+	background-color: rgb(244, 104, 11);
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
